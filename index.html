@@ -79,6 +79,76 @@
                 <use href="./images/sprite.svg#close"></use>
               </svg>
             </button>
+            <form class="form">
+              <h2 class="form-title">
+                Оставьте свои данные, мы вам перезвоним
+              </h2>
+              <div class="form-field">
+                <input
+                  type="text"
+                  class="form-input"
+                  name="Name"
+                  id="name"
+                  placeholder=" "
+                />
+                <label for="name" class="form-label">Имя</label>
+                <svg class="modal-icon" width="12" height="12">
+                  <use href="./images/sprite.svg#name"></use>
+                </svg>
+              </div>
+              <div class="form-field">
+                <input
+                  type="tel"
+                  class="form-input"
+                  name="tel"
+                  id="tel"
+                  placeholder=" "
+                />
+                <label for="tel" class="form-label">Телефон</label>
+                <svg class="modal-icon" width="12" height="12">
+                  <use href="./images/sprite.svg#tel"></use>
+                </svg>
+              </div>
+              <div class="form-field">
+                <input
+                  type="email"
+                  class="form-input"
+                  name="mail"
+                  id="mail"
+                  placeholder=" "
+                />
+                <label for="mail" class="form-label">Почта</label>
+                <svg class="modal-icon" width="12" height="12">
+                  <use href="./images/sprite.svg#mail"></use>
+                </svg>
+              </div>
+              <div class="form-field">
+                <label for="mail">Коментарий</label>
+                <textarea
+                  class="textarea"
+                  name="comment"
+                  rows="5"
+                  placeholder="Введите текст"
+                >
+                </textarea>
+              </div>
+              <label class="form-checkbox">
+                <input
+                  class="checkbox"
+                  type="checkbox"
+                  name="сontract"
+                  value="сontract"
+                />
+                <span class="icon-check"></span>
+                <span class="text-check"
+                  >Соглашаюсь с рассылкой и принимаю</span
+                >
+                <a class="сontract" href="http://#">Условия договора</a>
+              </label>
+              <div class="form-button">
+                <button class="button-submit" type="submit">Отправить</button>
+              </div>
+            </form>
           </div>
         </div>
       </section>
@@ -396,6 +466,18 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="media">
+          <form class="subscription">
+            <b class="subscription-text">Подпишитесь на рассылку</b>
+            <input
+              class="subscription-input"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+            />
+            <button class="button-submit" type="submit">Подписаться</button>
+          </form>
         </div>
       </div>
     </footer>
