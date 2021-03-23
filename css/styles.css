@@ -93,7 +93,7 @@ img {
 
 .button-submit {
   text-align: center;
-
+  padding: 10px 29px;
   font-family: Roboto;
   font-weight: bold;
   font-size: 16px;
@@ -166,7 +166,7 @@ img {
 
 .contact {
   display: flex;
-  align-items: center;
+
   color: var(--color-text-p);
   font-family: Roboto;
   font-style: normal;
@@ -247,8 +247,6 @@ img {
 
 /* подвал сайта */
 .footer-section {
-  display: flex;
-  justify-content: space-between;
   background-color: var(--background-color-footer);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -256,6 +254,7 @@ img {
 
 .footer-contanier {
   display: flex;
+  justify-content: space-between;
   align-items: baseline;
 }
 
@@ -293,8 +292,13 @@ img {
   display: block;
 }
 
-.subscription {
+/* .subscription {
   display: flexbox;
+} */
+
+.media-contanier {
+  display: flex;
+  align-items: center;
 }
 
 .subscription-text {
@@ -309,6 +313,8 @@ img {
 }
 
 .subscription-input {
+  margin-right: 12px;
+  padding: 16px 15px;
   width: 358px;
   height: 50px;
   background-color: inherit;

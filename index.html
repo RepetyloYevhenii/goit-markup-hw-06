@@ -48,11 +48,7 @@
           </li>
           <li class="item icon-item">
             <a href="tel:+380961111111" class="contact link"
-              ><svg
-                class="icon-contact contact-smartphon"
-                width="10"
-                height="16"
-              >
+              ><svg class="icon-contact" width="10" height="16">
                 <use href="./images/sprite.svg#smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -470,13 +466,22 @@
         <div class="media">
           <form class="subscription">
             <b class="subscription-text">Подпишитесь на рассылку</b>
-            <input
-              class="subscription-input"
-              type="email"
-              name="email"
-              placeholder="E-mail"
-            />
-            <button class="button-submit" type="submit">Подписаться</button>
+            <div class="media-contanier">
+              <input
+                class="subscription-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+              <button class="button-submit" type="submit">
+                Подписаться
+                <span class="icon-send">
+                  <svg class="send" width="24" height="24">
+                    <use href="./images/sprite.svg#send"></use>
+                  </svg>
+                </span>
+              </button>
+            </div>
           </form>
         </div>
       </div>
